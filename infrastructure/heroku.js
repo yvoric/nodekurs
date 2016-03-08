@@ -33,7 +33,7 @@ var test = {
     maintenance: false,
     stack: 'cedar-14',
     config_vars: {
-        //MONGOLAB_URI: 'mongodb://heroku_ngjsb33p:2b9jgi3tcadr458f5cook4lsvs@ds019488.mlab.com:19488/heroku_ngjsb33p'
+        MONGOLAB_URI: 'mongodb://heroku_ngjsb33p:2b9jgi3tcadr458f5cook4lsvs@ds019488.mlab.com:19488/heroku_ngjsb33p'
     },
     addons: {
         mongolab: {plan: 'mongolab:sandbox'}
