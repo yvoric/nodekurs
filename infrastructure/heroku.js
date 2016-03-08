@@ -52,4 +52,4 @@ var test = {
     //domains: ['yvonnes-book-inventory-service.herokuapp.com']
 }
 
-configurator(prod);
+configurator(test);
