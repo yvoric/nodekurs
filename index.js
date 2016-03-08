@@ -2,7 +2,7 @@ var stockRepository = require('./stockRepository')();
 var app = require('./app')(stockRepository);
 
 /*Start http server*/
-app.listen(process.env.port || 3002, function () {
+app.listen(process.env.PORT || 3003, function () {
     console.log('Example app listening on port 3003!');
 });
 
@@ -14,3 +14,4 @@ app.listen(process.env.port || 3002, function () {
 
 
 
+                                                  K
